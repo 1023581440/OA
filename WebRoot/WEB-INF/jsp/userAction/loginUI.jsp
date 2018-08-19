@@ -24,7 +24,7 @@
 <s:form action="user_login" focusElement="loginNameInput">
     <div id="CenterAreaBg"> 
         <div id="CenterArea">
-            <div id="LogoImg"><img border="0" src="${pageContext.request.contextPath}/style/blue/images/logo.png" /></div>
+            <div id="LogoImg"></div>
             <div id="LoginInfo">
                 <table BORDER=0 CELLSPACING=0 CELLPADDING=0 width=100%>
                 	<tr>
@@ -47,7 +47,6 @@
                     </tr>
                 </table>
             </div>
-            <div id="CopyRight"><a href="javascript:void(0)">&copy; 2010 版权所有 itcast</a></div>
         </div>
     </div>
     </s:form>
